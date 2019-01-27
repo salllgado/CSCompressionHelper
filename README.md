@@ -11,6 +11,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+Swift 4.0
+IOS 9.3 +
+
 ## Installation
 
 CSVideoCompression is available through [CocoaPods](https://cocoapods.org). To install
@@ -22,7 +25,9 @@ pod 'CSVideoCompression'
 
 ## Author
 
-salllgado@hotmail.com.br, salllgado@hotmail.com.br
+CHRYSTIAN SALGADO
+email: salllgado@hotmail.com.br
+twitter: @salllgadin
 
 ## License
 
