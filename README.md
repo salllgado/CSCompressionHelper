@@ -1,9 +1,9 @@
 # CSVideoCompression
 
-[![CI Status](https://img.shields.io/travis/salllgado@hotmail.com.br/CSVideoCompression.svg?style=flat)](https://travis-ci.org/salllgado@hotmail.com.br/CSVideoCompression)
-[![Version](https://img.shields.io/cocoapods/v/CSVideoCompression.svg?style=flat)](https://cocoapods.org/pods/CSVideoCompression)
-[![License](https://img.shields.io/cocoapods/l/CSVideoCompression.svg?style=flat)](https://cocoapods.org/pods/CSVideoCompression)
-[![Platform](https://img.shields.io/cocoapods/p/CSVideoCompression.svg?style=flat)](https://cocoapods.org/pods/CSVideoCompression)
+<p align="center">
+<img src="https://img.shields.io/badge/platform-iOS%209.3%2B-yellow.svg?style=flat" alt="Platform: iOS 9.3+"/>
+<a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/language-swift%204.0-4BC51D.svg?style=flat" alt="Language: Swift 4.0" /></a>
+</p>
 
 ## Example
 
