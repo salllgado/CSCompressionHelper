@@ -1,0 +1,22 @@
+{
+  "name": "CSVideoCompression",
+  "version": "0.1.0",
+  "summary": "A short description of CSVideoCompression.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/salllgado@hotmail.com.br/CSVideoCompression",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "salllgado@hotmail.com.br": "salllgado@hotmail.com.br"
+  },
+  "source": {
+    "git": "https://github.com/salllgado@hotmail.com.br/CSVideoCompression.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CSVideoCompression/Classes/**/*"
+}

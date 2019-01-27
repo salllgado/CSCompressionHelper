@@ -1,0 +1,16 @@
+PODS:
+  - CSVideoCompression (0.1.0)
+
+DEPENDENCIES:
+  - CSVideoCompression (from `../`)
+
+EXTERNAL SOURCES:
+  CSVideoCompression:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CSVideoCompression: adbed1301d5e490caabc8c51c3dde73ffacc893b
+
+PODFILE CHECKSUM: dbe2ba822af4cec5ed74d65abdaa006b25e4581a
+
+COCOAPODS: 1.5.3
