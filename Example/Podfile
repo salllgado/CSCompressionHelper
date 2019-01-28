@@ -2,10 +2,5 @@ use_frameworks!
 
 target 'CSVideoCompression_Example' do
   pod 'CSVideoCompression', :path => '../'
-
-  target 'CSVideoCompression_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  
 end
