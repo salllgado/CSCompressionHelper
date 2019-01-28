@@ -20,19 +20,18 @@ class VideoCompressionHelper {
      
      - parameter urlToCompress: video url path.
      */
-    func compressVideo(from urlToCompress: URL, customFileName: String, completion:@escaping (URL?, NSData?, Error?)->Void) {
-        compressVideo(from: urlToCompress, customFileName: customFileName, fileNameType: nil, fileExtension: nil, completion: completion)
+    func compressVideo(from urlToCompress: URL, customFileName: String, videoCompessedQuality: VideoQuality, completion: @escaping (URL?, NSData?, Error?)->Void) {
+        compressVideo(from: urlToCompress, customFileName: customFileName, fileNameType: nil, fileExtension: nil, videoCompessedQuality: videoCompessedQuality, completion: completion)
     }
     
-    func compressVideo(from urlToCompress: URL, fileNameType: NameType, completion:@escaping (URL?, NSData?, Error?)->Void) {
-        compressVideo(from: urlToCompress, customFileName: nil, fileNameType: fileNameType, fileExtension: nil, completion: completion)
+    func compressVideo(from urlToCompress: URL, fileNameType: NameType, videoCompessedQuality: VideoQuality, completion: @escaping (URL?, NSData?, Error?)->Void) {
+        compressVideo(from: urlToCompress, customFileName: nil, fileNameType: fileNameType, fileExtension: nil, videoCompessedQuality: videoCompessedQuality, completion: completion)
     }
     
-    private func compressVideo(from urlToCompress: URL, customFileName: String? = nil, fileNameType: NameType? = nil, fileExtension: VideoExtension? = .mov,  completion:@escaping (URL?, NSData?, Error?)->Void) {
+    private func compressVideo(from urlToCompress: URL, customFileName: String? = nil, fileNameType: NameType? = nil, fileExtension: VideoExtension? = .mov, videoCompessedQuality: VideoQuality, completion:@escaping (URL?, NSData?, Error?)->Void) {
         
         guard let _ = urlToCompress.pathComponents.last else {
             fatalError("Has no video file in this path.")
-            return
         }
         
         let _fileExtension = fileExtension?.rawValue ?? VideoExtension.mov.rawValue
@@ -42,7 +41,7 @@ class VideoCompressionHelper {
         // Search for file in new future video file local and delete if exists.
         tryRemoveFile(from: outputPathURL)
         
-        let assetExport: AVAssetExportSession = AVAssetExportSession(asset: sourceAsset, presetName: AVAssetExportPresetMediumQuality)!
+        let assetExport: AVAssetExportSession = AVAssetExportSession(asset: sourceAsset, presetName: getAVVideoQuality(videoCompessedQuality))!
         assetExport.outputFileType = getAVFileType(fileExtension)
         assetExport.shouldOptimizeForNetworkUse = true
         assetExport.outputURL = outputPathURL
@@ -110,11 +109,7 @@ class VideoCompressionHelper {
         }
     }
     
-    /**
-     Método que retorna o tamanho de um arquivo vindo de uma url, formatado em duas casas decimais.
-     
-     - parameter url: File path url.
-     */
+    /// Get file size from file urlPath.
     private func getFileSize(from url: URL) -> String {
         if let data = NSData(contentsOf: url) {
             let doubleValue = Double(data.length) / 1048576.0
@@ -123,6 +118,19 @@ class VideoCompressionHelper {
         }
         else {
             return "No file size available."
+        }
+    }
+    
+    
+    /// Get video quality by enum
+    private func getAVVideoQuality(_ videoQuality: VideoQuality) -> String {
+        switch videoQuality {
+        case .high:
+            return AVAssetExportPresetHighestQuality
+        case .medium:
+            return AVAssetExportPresetMediumQuality
+        case .low:
+            return AVAssetExportPresetLowQuality
         }
     }
     

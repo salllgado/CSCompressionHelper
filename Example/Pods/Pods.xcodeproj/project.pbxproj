@@ -17,6 +17,7 @@
 		B889A80F21FE39ED004C8811 /* VideoExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889A80E21FE39ED004C8811 /* VideoExtension.swift */; };
 		B889A81221FE7886004C8811 /* UUIDFormatedHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889A81121FE7886004C8811 /* UUIDFormatedHelper.swift */; };
 		B889A81421FE7937004C8811 /* NameType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889A81321FE7937004C8811 /* NameType.swift */; };
+		B889A81621FE8102004C8811 /* VideoQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889A81521FE8102004C8811 /* VideoQuality.swift */; };
 		D98FF350C4BDAE963F22BCBFE6A0B3E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		E0E13F03DDF025F5986EFB1D258AC039 /* CSVideoCompression-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BC6E88CCE3B1CF6518636326B8335F /* CSVideoCompression-dummy.m */; };
 /* End PBXBuildFile section */
@@ -50,6 +51,7 @@
 		B889A80E21FE39ED004C8811 /* VideoExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoExtension.swift; sourceTree = "<group>"; };
 		B889A81121FE7886004C8811 /* UUIDFormatedHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UUIDFormatedHelper.swift; sourceTree = "<group>"; };
 		B889A81321FE7937004C8811 /* NameType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameType.swift; sourceTree = "<group>"; };
+		B889A81521FE8102004C8811 /* VideoQuality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoQuality.swift; sourceTree = "<group>"; };
 		B8FE4033AD049B1C7E739CD57DA28047 /* CSVideoCompression-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSVideoCompression-umbrella.h"; sourceTree = "<group>"; };
 		BB041A4441AFB723F0FA7B985ADA8DCC /* CSVideoCompression.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSVideoCompression.xcconfig; sourceTree = "<group>"; };
 		BCFDCDC6DDED399098B5583D3AC13CB2 /* Pods-CSVideoCompression_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CSVideoCompression_Example.modulemap"; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 			children = (
 				B889A80E21FE39ED004C8811 /* VideoExtension.swift */,
 				B889A81321FE7937004C8811 /* NameType.swift */,
+				B889A81521FE8102004C8811 /* VideoQuality.swift */,
 			);
 			name = Enum;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				A5A8E87754F5990252BC0326EDB52766 /* CSVideoCompression.swift in Sources */,
 				B889A80F21FE39ED004C8811 /* VideoExtension.swift in Sources */,
 				B889A81221FE7886004C8811 /* UUIDFormatedHelper.swift in Sources */,
+				B889A81621FE8102004C8811 /* VideoQuality.swift in Sources */,
 				B889A81421FE7937004C8811 /* NameType.swift in Sources */,
 				B889A80A21FE391E004C8811 /* DateNameHelper.swift in Sources */,
 			);
