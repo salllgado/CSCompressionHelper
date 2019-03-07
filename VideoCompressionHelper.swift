@@ -34,7 +34,7 @@ class VideoCompressionHelper {
             fatalError("Has no video file in this path.")
         }
         
-        print("Old file size: \(self.getFileSize(from: urlToCompress))")
+        print("Old file size: \(FileSizeHelper.getFileSize(from: urlToCompress))")
         
         let _fileExtension = fileExtension?.rawValue ?? VideoExtension.mov.rawValue
         let sourceAsset = AVURLAsset(url: urlToCompress, options: nil)
@@ -50,19 +50,19 @@ class VideoCompressionHelper {
         assetExport.exportAsynchronously { () -> Void in
             
             switch assetExport.status {
-            case AVAssetExportSessionStatus.completed:
+            case AVAssetExportSession.Status.completed:
                 DispatchQueue.main.async {
                     do {
                         let videoData = try NSData(contentsOf: outputPathURL, options: NSData.ReadingOptions())
-                        print("File size: \(self.getFileSize(from: outputPathURL)), Success !!!")
+                        print("File size: \(FileSizeHelper.getFileSize(from: outputPathURL)), Success !!!")
                         completion(outputPathURL, videoData, nil)
                     } catch {
                         completion(nil, nil, assetExport.error)
                     }
                 }
-            case  AVAssetExportSessionStatus.failed:
+            case  AVAssetExportSession.Status.failed:
                 completion(nil, nil, assetExport.error)
-            case AVAssetExportSessionStatus.cancelled:
+            case AVAssetExportSession.Status.cancelled:
                 completion(nil, nil, assetExport.error)
             default:
                 // ... Completed.
@@ -107,18 +107,6 @@ class VideoCompressionHelper {
             } catch {
                 fatalError("Error trying to remove file from system files.")
             }
-        }
-    }
-    
-    /// Get file size from file urlPath.
-    private func getFileSize(from url: URL) -> String {
-        if let data = NSData(contentsOf: url) {
-            let doubleValue = Double(data.length) / 1048576.0
-            let valueFormated = String(format: "%.2f", doubleValue)
-            return "\(valueFormated) mb"
-        }
-        else {
-            return "No file size available."
         }
     }
     

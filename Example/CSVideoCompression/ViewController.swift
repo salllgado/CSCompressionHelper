@@ -34,7 +34,11 @@ class ViewController: SwiftyCamViewController {
 
 extension ViewController: SwiftyCamViewControllerDelegate {
     func swiftyCam(_ swiftyCam: SwiftyCamViewController, didTake photo: UIImage) {
-        // ...
+        CSCompression.compressImage(expectedSizeInMb: 1, imageToCompress: photo) { (imageCompressed, error) in
+            if let _image = imageCompressed {
+                
+            }
+        }
     }
     
     func swiftyCam(_ swiftyCam: SwiftyCamViewController, didBeginRecordingVideo camera: SwiftyCamViewController.CameraSelection) {
@@ -49,8 +53,8 @@ extension ViewController: SwiftyCamViewControllerDelegate {
     
     
     func swiftyCam(_ swiftyCam: SwiftyCamViewController, didFinishProcessVideoAt url: URL) {
-        CSVideoCompression.compressVideo(videoURL: url, fileNameType: NameType.uuidName, videoCompessedQuality: .low) { (newUrl, videoFileData, error) in
-            if let _newURL = newUrl {
+        CSCompression.compressVideo(videoURL: url, fileNameType: NameType.uuidName, videoCompessedQuality: .low) { (newUrl, videoFileData, error) in
+            if let _ = newUrl {
                 // ...
             }
         }

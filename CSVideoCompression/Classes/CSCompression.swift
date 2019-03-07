@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class CSVideoCompression {
+public class CSCompression {
     
     public init() {
         // ...
@@ -33,5 +33,9 @@ public class CSVideoCompression {
      */
     open class func compressVideo(videoURL: URL, fileNameType: NameType, videoCompessedQuality: VideoQuality, completionHandler:@escaping (URL?, NSData?, Error?)->Void) {
         VideoCompressionHelper().compressVideo(from: videoURL, fileNameType: fileNameType, videoCompessedQuality: videoCompessedQuality, completion: completionHandler)
+    }
+    
+    open class func compressImage(expectedSizeInMb: Int, imageToCompress: UIImage, completionHandler: @escaping (UIImage?, Error?) -> Void) {
+        PhotoCompressionHelper().compressTo(expectedSizeInMb, imageToCompress: imageToCompress, completionHandler: completionHandler)
     }
 }
