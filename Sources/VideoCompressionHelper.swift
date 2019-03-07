@@ -34,6 +34,8 @@ class VideoCompressionHelper {
             fatalError("Has no video file in this path.")
         }
         
+        print("Old file size: \(self.getFileSize(from: urlToCompress))")
+        
         let _fileExtension = fileExtension?.rawValue ?? VideoExtension.mov.rawValue
         let sourceAsset = AVURLAsset(url: urlToCompress, options: nil)
         let outputPathURL = generateFileURLWithPath(using: _fileExtension, nameType: fileNameType, customName: customFileName)
@@ -52,8 +54,7 @@ class VideoCompressionHelper {
                 DispatchQueue.main.async {
                     do {
                         let videoData = try NSData(contentsOf: outputPathURL, options: NSData.ReadingOptions())
-                        
-                        print("File size: \(self.getFileSize(from: outputPathURL))")
+                        print("File size: \(self.getFileSize(from: outputPathURL)), Success !!!")
                         completion(outputPathURL, videoData, nil)
                     } catch {
                         completion(nil, nil, assetExport.error)

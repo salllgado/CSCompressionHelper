@@ -1,16 +1,23 @@
 PODS:
   - CSVideoCompression (0.1.0)
+  - SwiftyCam (3.1.0)
 
 DEPENDENCIES:
   - CSVideoCompression (from `../`)
+  - SwiftyCam
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftyCam
 
 EXTERNAL SOURCES:
   CSVideoCompression:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CSVideoCompression: adbed1301d5e490caabc8c51c3dde73ffacc893b
+  CSVideoCompression: 7bcdedfb1cdf9a3f3007f10a23b9f5376d32d62a
+  SwiftyCam: ffe3adb6a2bae2bbfb7c213b6ac5a6f69d9893ac
 
-PODFILE CHECKSUM: fd439d9cda01fa97c3df78af8dce83ba22b0530a
+PODFILE CHECKSUM: 93b4821b09409828729a477f6b4a7cc593aae819
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.0

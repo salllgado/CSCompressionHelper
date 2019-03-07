@@ -7,268 +7,357 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		142A214DD521892EF239CA58788BDF6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		34ABB092913664A5963FF4F1C3F5A991 /* Pods-CSVideoCompression_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF7B924EC74831667B996222E162A66 /* Pods-CSVideoCompression_Example-dummy.m */; };
-		644207AC146FCC46B8CB44B1AB161642 /* CSVideoCompression-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8FE4033AD049B1C7E739CD57DA28047 /* CSVideoCompression-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7559FE6160EAADD7FC3391BB10553942 /* Pods-CSVideoCompression_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 572B5543CB84B75637FE1565B1B11DB6 /* Pods-CSVideoCompression_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5A8E87754F5990252BC0326EDB52766 /* CSVideoCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAEC722AB5DF9C06884F0BE1A5E2D16 /* CSVideoCompression.swift */; };
-		B889A80A21FE391E004C8811 /* DateNameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889A80921FE391E004C8811 /* DateNameHelper.swift */; };
-		B889A80C21FE393A004C8811 /* VideoCompressionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889A80B21FE393A004C8811 /* VideoCompressionHelper.swift */; };
-		B889A80F21FE39ED004C8811 /* VideoExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889A80E21FE39ED004C8811 /* VideoExtension.swift */; };
-		B889A81221FE7886004C8811 /* UUIDFormatedHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889A81121FE7886004C8811 /* UUIDFormatedHelper.swift */; };
-		B889A81421FE7937004C8811 /* NameType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889A81321FE7937004C8811 /* NameType.swift */; };
-		B889A81621FE8102004C8811 /* VideoQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889A81521FE8102004C8811 /* VideoQuality.swift */; };
-		D98FF350C4BDAE963F22BCBFE6A0B3E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		E0E13F03DDF025F5986EFB1D258AC039 /* CSVideoCompression-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BC6E88CCE3B1CF6518636326B8335F /* CSVideoCompression-dummy.m */; };
+		1D3988F6A1FFEC62872762C498C8C9F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		21A3CB634B8CEEE24B6056009348460C /* CSVideoCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09BAA9FD865463FA41838E85959AC0E /* CSVideoCompression.swift */; };
+		477D8BC93132E3C618CB9F1DFC703F0D /* Pods-CSVideoCompression_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6D83D918447C48C839988BBC25870B /* Pods-CSVideoCompression_Example-dummy.m */; };
+		4ADF7F0DD31C31B47FE516A250E1090B /* SwiftyCamButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E690D98191565E409E26E1701E65EFFA /* SwiftyCamButton.swift */; };
+		6AFAC62ABAEDA7D704F54D657918DF7C /* SwiftyCamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BD62C1B1CE2F600543A61FF8B19EDB /* SwiftyCamViewController.swift */; };
+		6F42D4E8054D740535BB81C0D5F9C8C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		780151562230A6E00096F46E /* DateNameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780151502230A6E00096F46E /* DateNameHelper.swift */; };
+		780151572230A6E00096F46E /* VideoExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780151512230A6E00096F46E /* VideoExtension.swift */; };
+		780151582230A6E00096F46E /* NameType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780151522230A6E00096F46E /* NameType.swift */; };
+		780151592230A6E00096F46E /* UUIDFormatedHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780151532230A6E00096F46E /* UUIDFormatedHelper.swift */; };
+		7801515A2230A6E00096F46E /* VideoCompressionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780151542230A6E00096F46E /* VideoCompressionHelper.swift */; };
+		7801515B2230A6E00096F46E /* VideoQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780151552230A6E00096F46E /* VideoQuality.swift */; };
+		B0E00EA81D40FFE9CDB3B04C38131B62 /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD7CB3F56E40467FA706CBF4C485FEE /* Orientation.swift */; };
+		B545DFB88339F258672DFB6E4C006703 /* Pods-CSVideoCompression_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B17B4FC8FD0A8068053A528C1CF3C4DA /* Pods-CSVideoCompression_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2739D2D6F6B36E22698EFB70F134DB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		C85FCFF44E014BD4EB67A5AC81C61146 /* CSVideoCompression-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC451776F070F0C4C8C13BB142CFD1C6 /* CSVideoCompression-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAD52982D36DDC8D03596A677B9BB5AE /* SwiftyCam-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8D2810BF64E8E8F9536D562D8B7F3A /* SwiftyCam-dummy.m */; };
+		D1AA0A442E5A62FE14D7A55B8FE39952 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACF9E9B49CC379705E2C4931B8EA284 /* PreviewView.swift */; };
+		DCE645FD54E991203534987667F382B9 /* SwiftyCamViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7282E96E88D180F0512DBDF80AA20855 /* SwiftyCamViewControllerDelegate.swift */; };
+		E06F6DF598956BA3FB36FD81D7BD4531 /* CSVideoCompression-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B242F60AA2EB12B6220AE591C789C30 /* CSVideoCompression-dummy.m */; };
+		E6FE16F336751EF964F0DD137A92DB21 /* SwiftyCam-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA7751489A1FE6353C1F684510798A7B /* SwiftyCam-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3490592911D3B20A836D9B2B573B9C4F /* PBXContainerItemProxy */ = {
+		DBA0B35BE4C10C62B1143B87929CF10E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E12B695042852587C2A31B5E339FC3A4;
+			remoteGlobalIDString = 6F40F21D2E5868F8FC85A74F051B580A;
+			remoteInfo = SwiftyCam;
+		};
+		F298171A43AA38A51F760126901B178C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D92C02EE21514976FD30A5299BA8E05A;
 			remoteInfo = CSVideoCompression;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		13C6F71BD8E1EC29686EADB5A751AB54 /* Pods-CSVideoCompression_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSVideoCompression_Example.release.xcconfig"; sourceTree = "<group>"; };
-		241155429F3646F11C48111188974EF3 /* Pods-CSVideoCompression_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CSVideoCompression_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		43F223E4CB4690A0FBF922483F990FCF /* CSVideoCompression.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CSVideoCompression.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		505DD9198152CEF4E25396599FC84AE4 /* CSVideoCompression-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSVideoCompression-prefix.pch"; sourceTree = "<group>"; };
-		572B5543CB84B75637FE1565B1B11DB6 /* Pods-CSVideoCompression_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CSVideoCompression_Example-umbrella.h"; sourceTree = "<group>"; };
-		58F8A4EB3725718228D447A95AE6D676 /* CSVideoCompression.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CSVideoCompression.modulemap; sourceTree = "<group>"; };
-		7D11E5D45998D9497202D706D51990D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8032E9FAB9FBBD7C3AF1FF3D7C131255 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		8D18AE45C005F5B665A196E0FD8C395E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9334CE324DD27F0F0025F08AC5E68D97 /* Pods_CSVideoCompression_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSVideoCompression_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B59F0B6511605F715F4028F7B60F9874 /* Pods-CSVideoCompression_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSVideoCompression_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B73B7176BE24A48CD64BFEF6043F2876 /* Pods-CSVideoCompression_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSVideoCompression_Example-resources.sh"; sourceTree = "<group>"; };
-		B889A80921FE391E004C8811 /* DateNameHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateNameHelper.swift; sourceTree = "<group>"; };
-		B889A80B21FE393A004C8811 /* VideoCompressionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCompressionHelper.swift; sourceTree = "<group>"; };
-		B889A80E21FE39ED004C8811 /* VideoExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoExtension.swift; sourceTree = "<group>"; };
-		B889A81121FE7886004C8811 /* UUIDFormatedHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UUIDFormatedHelper.swift; sourceTree = "<group>"; };
-		B889A81321FE7937004C8811 /* NameType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameType.swift; sourceTree = "<group>"; };
-		B889A81521FE8102004C8811 /* VideoQuality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoQuality.swift; sourceTree = "<group>"; };
-		B8FE4033AD049B1C7E739CD57DA28047 /* CSVideoCompression-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSVideoCompression-umbrella.h"; sourceTree = "<group>"; };
-		BB041A4441AFB723F0FA7B985ADA8DCC /* CSVideoCompression.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSVideoCompression.xcconfig; sourceTree = "<group>"; };
-		BCFDCDC6DDED399098B5583D3AC13CB2 /* Pods-CSVideoCompression_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CSVideoCompression_Example.modulemap"; sourceTree = "<group>"; };
-		C248511A913E6F0B8626C8B3998108EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		D5E37605D2A4C69F42C71CCAC614A606 /* Pods-CSVideoCompression_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CSVideoCompression_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DAAEC722AB5DF9C06884F0BE1A5E2D16 /* CSVideoCompression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSVideoCompression.swift; path = CSVideoCompression/Classes/CSVideoCompression.swift; sourceTree = "<group>"; };
-		DD7257010E70515EEEA888B7AD76F990 /* Pods-CSVideoCompression_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSVideoCompression_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E9BC6E88CCE3B1CF6518636326B8335F /* CSVideoCompression-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CSVideoCompression-dummy.m"; sourceTree = "<group>"; };
-		EBF7B924EC74831667B996222E162A66 /* Pods-CSVideoCompression_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CSVideoCompression_Example-dummy.m"; sourceTree = "<group>"; };
-		ED831B5BA6F177AA5119F1E45F9556AD /* CSVideoCompression.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CSVideoCompression.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1B42F0661056A03A2D6FBF6BF29CAAF8 /* SwiftyCam-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyCam-prefix.pch"; sourceTree = "<group>"; };
+		1CBEFCB395D356933021851245F219B1 /* SwiftyCam.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyCam.xcconfig; sourceTree = "<group>"; };
+		1EAE946BDB4C25E579FF7414E0C0A6C3 /* SwiftyCam.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyCam.modulemap; sourceTree = "<group>"; };
+		26E26C4046274D4FB96D7434CF8A1B1E /* Pods_CSVideoCompression_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSVideoCompression_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8D2810BF64E8E8F9536D562D8B7F3A /* SwiftyCam-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyCam-dummy.m"; sourceTree = "<group>"; };
+		2B0CAEEF6A4B371BE83D02440D4DB1D7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2B242F60AA2EB12B6220AE591C789C30 /* CSVideoCompression-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CSVideoCompression-dummy.m"; sourceTree = "<group>"; };
+		31CEABB57FC3528AF507F37EC5889CE2 /* CSVideoCompression-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CSVideoCompression-Info.plist"; sourceTree = "<group>"; };
+		340EF817CC125E3F7BB320C1D27C33F1 /* CSVideoCompression.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CSVideoCompression.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3821A60998626DE2700050933E9875B2 /* Pods-CSVideoCompression_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSVideoCompression_Example.release.xcconfig"; sourceTree = "<group>"; };
+		41BD62C1B1CE2F600543A61FF8B19EDB /* SwiftyCamViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyCamViewController.swift; path = Source/SwiftyCamViewController.swift; sourceTree = "<group>"; };
+		48617FD0534438541723B8D0441F7AAE /* CSVideoCompression-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSVideoCompression-prefix.pch"; sourceTree = "<group>"; };
+		532DE6D2E03F4BB24594BAF707A119EA /* SwiftyCam-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyCam-Info.plist"; sourceTree = "<group>"; };
+		66F7088876444831F41E6BDAE4ACE1EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6BE74049FC9EB11327CECC2F71B1D976 /* Pods-CSVideoCompression_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CSVideoCompression_Example.modulemap"; sourceTree = "<group>"; };
+		7282E96E88D180F0512DBDF80AA20855 /* SwiftyCamViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyCamViewControllerDelegate.swift; path = Source/SwiftyCamViewControllerDelegate.swift; sourceTree = "<group>"; };
+		7326900143D65035F4C4110D9A361A85 /* Pods-CSVideoCompression_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSVideoCompression_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		780151502230A6E00096F46E /* DateNameHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateNameHelper.swift; path = Sources/DateNameHelper.swift; sourceTree = "<group>"; };
+		780151512230A6E00096F46E /* VideoExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoExtension.swift; path = Sources/VideoExtension.swift; sourceTree = "<group>"; };
+		780151522230A6E00096F46E /* NameType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NameType.swift; path = Sources/NameType.swift; sourceTree = "<group>"; };
+		780151532230A6E00096F46E /* UUIDFormatedHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UUIDFormatedHelper.swift; path = Sources/UUIDFormatedHelper.swift; sourceTree = "<group>"; };
+		780151542230A6E00096F46E /* VideoCompressionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoCompressionHelper.swift; path = Sources/VideoCompressionHelper.swift; sourceTree = "<group>"; };
+		780151552230A6E00096F46E /* VideoQuality.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoQuality.swift; path = Sources/VideoQuality.swift; sourceTree = "<group>"; };
+		839685B33F18DCCDFEDB2D1F5FEFDCAB /* Pods-CSVideoCompression_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CSVideoCompression_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9ACF9E9B49CC379705E2C4931B8EA284 /* PreviewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PreviewView.swift; path = Source/PreviewView.swift; sourceTree = "<group>"; };
+		9D4C66FCEAC91D0A4C3AEC437471C045 /* CSVideoCompression.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CSVideoCompression.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC451776F070F0C4C8C13BB142CFD1C6 /* CSVideoCompression-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSVideoCompression-umbrella.h"; sourceTree = "<group>"; };
+		ACD7CB3F56E40467FA706CBF4C485FEE /* Orientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Orientation.swift; path = Source/Orientation.swift; sourceTree = "<group>"; };
+		B09BAA9FD865463FA41838E85959AC0E /* CSVideoCompression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSVideoCompression.swift; path = CSVideoCompression/Classes/CSVideoCompression.swift; sourceTree = "<group>"; };
+		B17B4FC8FD0A8068053A528C1CF3C4DA /* Pods-CSVideoCompression_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CSVideoCompression_Example-umbrella.h"; sourceTree = "<group>"; };
+		B205C6BC826115AA67D90A2A772B49AE /* Pods-CSVideoCompression_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSVideoCompression_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B382733341D3D7434E44ABA75D53DFDD /* SwiftyCam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyCam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7777F6751DD01A51DEFAD12D93E19E9 /* CSVideoCompression.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSVideoCompression.xcconfig; sourceTree = "<group>"; };
+		C2D938F72713CA7EE09CCF2FB4F35D13 /* Pods-CSVideoCompression_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CSVideoCompression_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C553421C03016367CBCE7C749435F3EF /* Pods-CSVideoCompression_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CSVideoCompression_Example-Info.plist"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E690D98191565E409E26E1701E65EFFA /* SwiftyCamButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyCamButton.swift; path = Source/SwiftyCamButton.swift; sourceTree = "<group>"; };
+		EF6D83D918447C48C839988BBC25870B /* Pods-CSVideoCompression_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CSVideoCompression_Example-dummy.m"; sourceTree = "<group>"; };
+		F2805212907EF5B2199E11799A6EF36A /* CSVideoCompression.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CSVideoCompression.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FA7751489A1FE6353C1F684510798A7B /* SwiftyCam-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyCam-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3517368562DCCFB88C435AC4DF62F97F /* Frameworks */ = {
+		7F0890FBBCB4C93DF8885B5252A60A9B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				142A214DD521892EF239CA58788BDF6D /* Foundation.framework in Frameworks */,
+				C2739D2D6F6B36E22698EFB70F134DB4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8B11650259CB33E647464E1E9BC71A0 /* Frameworks */ = {
+		92D1ED3B15BAF12F61115649AC83C400 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D98FF350C4BDAE963F22BCBFE6A0B3E7 /* Foundation.framework in Frameworks */,
+				6F42D4E8054D740535BB81C0D5F9C8C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92ECB4974499F7D7FED3C643F81B8E34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3988F6A1FFEC62872762C498C8C9F6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04570082764D3C20BA6D10024C67BCE9 /* Products */ = {
+		0425FAA249F000D1B55F03C9A631B2B2 /* CSVideoCompression */ = {
 			isa = PBXGroup;
 			children = (
-				43F223E4CB4690A0FBF922483F990FCF /* CSVideoCompression.framework */,
-				9334CE324DD27F0F0025F08AC5E68D97 /* Pods_CSVideoCompression_Example.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		2299D6ECDE5105B5146E3E569A6A1917 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E4CF35667CB1E9C0DA22C70F4839AD1A /* CSVideoCompression */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		44D5347904CF754D6785B84253F2574A /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		670B93D37420F015C87128E3273CBDBC /* Pods-CSVideoCompression_Example */ = {
-			isa = PBXGroup;
-			children = (
-				8D18AE45C005F5B665A196E0FD8C395E /* Info.plist */,
-				BCFDCDC6DDED399098B5583D3AC13CB2 /* Pods-CSVideoCompression_Example.modulemap */,
-				241155429F3646F11C48111188974EF3 /* Pods-CSVideoCompression_Example-acknowledgements.markdown */,
-				D5E37605D2A4C69F42C71CCAC614A606 /* Pods-CSVideoCompression_Example-acknowledgements.plist */,
-				EBF7B924EC74831667B996222E162A66 /* Pods-CSVideoCompression_Example-dummy.m */,
-				DD7257010E70515EEEA888B7AD76F990 /* Pods-CSVideoCompression_Example-frameworks.sh */,
-				B73B7176BE24A48CD64BFEF6043F2876 /* Pods-CSVideoCompression_Example-resources.sh */,
-				572B5543CB84B75637FE1565B1B11DB6 /* Pods-CSVideoCompression_Example-umbrella.h */,
-				B59F0B6511605F715F4028F7B60F9874 /* Pods-CSVideoCompression_Example.debug.xcconfig */,
-				13C6F71BD8E1EC29686EADB5A751AB54 /* Pods-CSVideoCompression_Example.release.xcconfig */,
-			);
-			name = "Pods-CSVideoCompression_Example";
-			path = "Target Support Files/Pods-CSVideoCompression_Example";
-			sourceTree = "<group>";
-		};
-		7AED8711B30F582D0C459FB40006C676 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				ED831B5BA6F177AA5119F1E45F9556AD /* CSVideoCompression.podspec */,
-				8032E9FAB9FBBD7C3AF1FF3D7C131255 /* LICENSE */,
-				C248511A913E6F0B8626C8B3998108EE /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				2299D6ECDE5105B5146E3E569A6A1917 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				04570082764D3C20BA6D10024C67BCE9 /* Products */,
-				E63870A6DC08F3D4395AF8434B602B3A /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		B889A80821FE38F2004C8811 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				B889A81021FE3B70004C8811 /* Helper */,
-				B889A80D21FE39DE004C8811 /* Enum */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		B889A80D21FE39DE004C8811 /* Enum */ = {
-			isa = PBXGroup;
-			children = (
-				B889A80E21FE39ED004C8811 /* VideoExtension.swift */,
-				B889A81321FE7937004C8811 /* NameType.swift */,
-				B889A81521FE8102004C8811 /* VideoQuality.swift */,
-			);
-			name = Enum;
-			sourceTree = "<group>";
-		};
-		B889A81021FE3B70004C8811 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				B889A80921FE391E004C8811 /* DateNameHelper.swift */,
-				B889A80B21FE393A004C8811 /* VideoCompressionHelper.swift */,
-				B889A81121FE7886004C8811 /* UUIDFormatedHelper.swift */,
-			);
-			name = Helper;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				44D5347904CF754D6785B84253F2574A /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BF3D2D78ADE8E4DC6E4A77702BAE0D8F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				58F8A4EB3725718228D447A95AE6D676 /* CSVideoCompression.modulemap */,
-				BB041A4441AFB723F0FA7B985ADA8DCC /* CSVideoCompression.xcconfig */,
-				E9BC6E88CCE3B1CF6518636326B8335F /* CSVideoCompression-dummy.m */,
-				505DD9198152CEF4E25396599FC84AE4 /* CSVideoCompression-prefix.pch */,
-				B8FE4033AD049B1C7E739CD57DA28047 /* CSVideoCompression-umbrella.h */,
-				7D11E5D45998D9497202D706D51990D0 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CSVideoCompression";
-			sourceTree = "<group>";
-		};
-		E4CF35667CB1E9C0DA22C70F4839AD1A /* CSVideoCompression */ = {
-			isa = PBXGroup;
-			children = (
-				DAAEC722AB5DF9C06884F0BE1A5E2D16 /* CSVideoCompression.swift */,
-				B889A80821FE38F2004C8811 /* Sources */,
-				7AED8711B30F582D0C459FB40006C676 /* Pod */,
-				BF3D2D78ADE8E4DC6E4A77702BAE0D8F /* Support Files */,
+				B09BAA9FD865463FA41838E85959AC0E /* CSVideoCompression.swift */,
+				7801515C2230A6E70096F46E /* Enum */,
+				7801514F2230A6D70096F46E /* Helpers */,
+				84827622905B52627BEF1744B668A496 /* Pod */,
+				B3E243BC1F7F12B1187A1D7CBCD26B07 /* Support Files */,
 			);
 			name = CSVideoCompression;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		E63870A6DC08F3D4395AF8434B602B3A /* Targets Support Files */ = {
+		1A1473BAC3182A1921FF2FE95A48E90D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				670B93D37420F015C87128E3273CBDBC /* Pods-CSVideoCompression_Example */,
+				0425FAA249F000D1B55F03C9A631B2B2 /* CSVideoCompression */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1ED6B17F02AFA81C29BC246150F76B9B /* Pods-CSVideoCompression_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6BE74049FC9EB11327CECC2F71B1D976 /* Pods-CSVideoCompression_Example.modulemap */,
+				C2D938F72713CA7EE09CCF2FB4F35D13 /* Pods-CSVideoCompression_Example-acknowledgements.markdown */,
+				839685B33F18DCCDFEDB2D1F5FEFDCAB /* Pods-CSVideoCompression_Example-acknowledgements.plist */,
+				EF6D83D918447C48C839988BBC25870B /* Pods-CSVideoCompression_Example-dummy.m */,
+				B205C6BC826115AA67D90A2A772B49AE /* Pods-CSVideoCompression_Example-frameworks.sh */,
+				C553421C03016367CBCE7C749435F3EF /* Pods-CSVideoCompression_Example-Info.plist */,
+				B17B4FC8FD0A8068053A528C1CF3C4DA /* Pods-CSVideoCompression_Example-umbrella.h */,
+				7326900143D65035F4C4110D9A361A85 /* Pods-CSVideoCompression_Example.debug.xcconfig */,
+				3821A60998626DE2700050933E9875B2 /* Pods-CSVideoCompression_Example.release.xcconfig */,
+			);
+			name = "Pods-CSVideoCompression_Example";
+			path = "Target Support Files/Pods-CSVideoCompression_Example";
+			sourceTree = "<group>";
+		};
+		2738A1FD3519A2B8C8B7EA3507836F23 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EAE946BDB4C25E579FF7414E0C0A6C3 /* SwiftyCam.modulemap */,
+				1CBEFCB395D356933021851245F219B1 /* SwiftyCam.xcconfig */,
+				2A8D2810BF64E8E8F9536D562D8B7F3A /* SwiftyCam-dummy.m */,
+				532DE6D2E03F4BB24594BAF707A119EA /* SwiftyCam-Info.plist */,
+				1B42F0661056A03A2D6FBF6BF29CAAF8 /* SwiftyCam-prefix.pch */,
+				FA7751489A1FE6353C1F684510798A7B /* SwiftyCam-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyCam";
+			sourceTree = "<group>";
+		};
+		2A94381D209F0649B6E7495626B6F656 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B569E80DDC59C17810AE1EEB545E9F7 /* SwiftyCam */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		54F9377A81CC9634BB50A68CE31D714A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				340EF817CC125E3F7BB320C1D27C33F1 /* CSVideoCompression.framework */,
+				26E26C4046274D4FB96D7434CF8A1B1E /* Pods_CSVideoCompression_Example.framework */,
+				B382733341D3D7434E44ABA75D53DFDD /* SwiftyCam.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B569E80DDC59C17810AE1EEB545E9F7 /* SwiftyCam */ = {
+			isa = PBXGroup;
+			children = (
+				ACD7CB3F56E40467FA706CBF4C485FEE /* Orientation.swift */,
+				9ACF9E9B49CC379705E2C4931B8EA284 /* PreviewView.swift */,
+				E690D98191565E409E26E1701E65EFFA /* SwiftyCamButton.swift */,
+				41BD62C1B1CE2F600543A61FF8B19EDB /* SwiftyCamViewController.swift */,
+				7282E96E88D180F0512DBDF80AA20855 /* SwiftyCamViewControllerDelegate.swift */,
+				2738A1FD3519A2B8C8B7EA3507836F23 /* Support Files */,
+			);
+			path = SwiftyCam;
+			sourceTree = "<group>";
+		};
+		7801514F2230A6D70096F46E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				780151502230A6E00096F46E /* DateNameHelper.swift */,
+				780151532230A6E00096F46E /* UUIDFormatedHelper.swift */,
+				780151542230A6E00096F46E /* VideoCompressionHelper.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		7801515C2230A6E70096F46E /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				780151512230A6E00096F46E /* VideoExtension.swift */,
+				780151522230A6E00096F46E /* NameType.swift */,
+				780151552230A6E00096F46E /* VideoQuality.swift */,
+			);
+			name = Enum;
+			sourceTree = "<group>";
+		};
+		84827622905B52627BEF1744B668A496 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F2805212907EF5B2199E11799A6EF36A /* CSVideoCompression.podspec */,
+				66F7088876444831F41E6BDAE4ACE1EC /* LICENSE */,
+				2B0CAEEF6A4B371BE83D02440D4DB1D7 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B3E243BC1F7F12B1187A1D7CBCD26B07 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D4C66FCEAC91D0A4C3AEC437471C045 /* CSVideoCompression.modulemap */,
+				B7777F6751DD01A51DEFAD12D93E19E9 /* CSVideoCompression.xcconfig */,
+				2B242F60AA2EB12B6220AE591C789C30 /* CSVideoCompression-dummy.m */,
+				31CEABB57FC3528AF507F37EC5889CE2 /* CSVideoCompression-Info.plist */,
+				48617FD0534438541723B8D0441F7AAE /* CSVideoCompression-prefix.pch */,
+				AC451776F070F0C4C8C13BB142CFD1C6 /* CSVideoCompression-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CSVideoCompression";
+			sourceTree = "<group>";
+		};
+		C6C75954E3702E713104D19126FF3876 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1ED6B17F02AFA81C29BC246150F76B9B /* Pods-CSVideoCompression_Example */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1A1473BAC3182A1921FF2FE95A48E90D /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2A94381D209F0649B6E7495626B6F656 /* Pods */,
+				54F9377A81CC9634BB50A68CE31D714A /* Products */,
+				C6C75954E3702E713104D19126FF3876 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		12DF3D9F2FCCFF0E60FD9A289906389D /* Headers */ = {
+		1E10BD5ACF0D5311A219CF9C4A3040F6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7559FE6160EAADD7FC3391BB10553942 /* Pods-CSVideoCompression_Example-umbrella.h in Headers */,
+				B545DFB88339F258672DFB6E4C006703 /* Pods-CSVideoCompression_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		17E8394C2C20AEA2C5452A3077CF3907 /* Headers */ = {
+		B602005BD2B0A507C253E621D94196F0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				644207AC146FCC46B8CB44B1AB161642 /* CSVideoCompression-umbrella.h in Headers */,
+				C85FCFF44E014BD4EB67A5AC81C61146 /* CSVideoCompression-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2FEF5B3E984AD9BE25D1D7169C4ACE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6FE16F336751EF964F0DD137A92DB21 /* SwiftyCam-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		02149B4386DFDED2EA6E30AE13BCE247 /* Pods-CSVideoCompression_Example */ = {
+		19A2E28AAA4004D4F3FCEB0557BEBE45 /* Pods-CSVideoCompression_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 921C9A21B183AFDC467E7DB7E28B41E6 /* Build configuration list for PBXNativeTarget "Pods-CSVideoCompression_Example" */;
+			buildConfigurationList = 8395FD19BF250D753FA0877907476BF9 /* Build configuration list for PBXNativeTarget "Pods-CSVideoCompression_Example" */;
 			buildPhases = (
-				12DF3D9F2FCCFF0E60FD9A289906389D /* Headers */,
-				53EA21E41E5661CAABFA52D294DB9C8E /* Sources */,
-				C8B11650259CB33E647464E1E9BC71A0 /* Frameworks */,
-				85914E2463616E083A1AD002E27EF1D7 /* Resources */,
+				1E10BD5ACF0D5311A219CF9C4A3040F6 /* Headers */,
+				EF67D0AF1536203C36FE42DE071A2897 /* Sources */,
+				7F0890FBBCB4C93DF8885B5252A60A9B /* Frameworks */,
+				EA2183C424CE916135CD4B302E1CC61C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AE92D748ED415EA419A11F312F321E02 /* PBXTargetDependency */,
+				FFD9FF5942AF4E62E8E7164FDB25182B /* PBXTargetDependency */,
+				89470368C09E11D961B29FBE4A677592 /* PBXTargetDependency */,
 			);
 			name = "Pods-CSVideoCompression_Example";
 			productName = "Pods-CSVideoCompression_Example";
-			productReference = 9334CE324DD27F0F0025F08AC5E68D97 /* Pods_CSVideoCompression_Example.framework */;
+			productReference = 26E26C4046274D4FB96D7434CF8A1B1E /* Pods_CSVideoCompression_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E12B695042852587C2A31B5E339FC3A4 /* CSVideoCompression */ = {
+		6F40F21D2E5868F8FC85A74F051B580A /* SwiftyCam */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F7978FBDFF3D128D09E7DBB1FEBFEDF /* Build configuration list for PBXNativeTarget "CSVideoCompression" */;
+			buildConfigurationList = E0CD83320E4B98296C9D817231FCA41A /* Build configuration list for PBXNativeTarget "SwiftyCam" */;
 			buildPhases = (
-				17E8394C2C20AEA2C5452A3077CF3907 /* Headers */,
-				6D0497DD2CB9280B3DACEA19574929B1 /* Sources */,
-				3517368562DCCFB88C435AC4DF62F97F /* Frameworks */,
-				BE3F49B5D152460C5FF46773B1D94146 /* Resources */,
+				F2FEF5B3E984AD9BE25D1D7169C4ACE9 /* Headers */,
+				1E471162A9504AEE66A94A4B028335BD /* Sources */,
+				92ECB4974499F7D7FED3C643F81B8E34 /* Frameworks */,
+				57C6519E4A01CCBD8EB9BB535B78878F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyCam;
+			productName = SwiftyCam;
+			productReference = B382733341D3D7434E44ABA75D53DFDD /* SwiftyCam.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D92C02EE21514976FD30A5299BA8E05A /* CSVideoCompression */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D64B3F39E76D4B7006B3CBD3075FC8D3 /* Build configuration list for PBXNativeTarget "CSVideoCompression" */;
+			buildPhases = (
+				B602005BD2B0A507C253E621D94196F0 /* Headers */,
+				1F628036E8341649585D38505FDDD6C1 /* Sources */,
+				92D1ED3B15BAF12F61115649AC83C400 /* Frameworks */,
+				CF18929944EA4E636FBB4A2C5670338E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -276,45 +365,53 @@
 			);
 			name = CSVideoCompression;
 			productName = CSVideoCompression;
-			productReference = 43F223E4CB4690A0FBF922483F990FCF /* CSVideoCompression.framework */;
+			productReference = 340EF817CC125E3F7BB320C1D27C33F1 /* CSVideoCompression.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 04570082764D3C20BA6D10024C67BCE9 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 54F9377A81CC9634BB50A68CE31D714A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E12B695042852587C2A31B5E339FC3A4 /* CSVideoCompression */,
-				02149B4386DFDED2EA6E30AE13BCE247 /* Pods-CSVideoCompression_Example */,
+				D92C02EE21514976FD30A5299BA8E05A /* CSVideoCompression */,
+				19A2E28AAA4004D4F3FCEB0557BEBE45 /* Pods-CSVideoCompression_Example */,
+				6F40F21D2E5868F8FC85A74F051B580A /* SwiftyCam */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		85914E2463616E083A1AD002E27EF1D7 /* Resources */ = {
+		57C6519E4A01CCBD8EB9BB535B78878F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE3F49B5D152460C5FF46773B1D94146 /* Resources */ = {
+		CF18929944EA4E636FBB4A2C5670338E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2183C424CE916135CD4B302E1CC61C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -324,44 +421,63 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		53EA21E41E5661CAABFA52D294DB9C8E /* Sources */ = {
+		1E471162A9504AEE66A94A4B028335BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34ABB092913664A5963FF4F1C3F5A991 /* Pods-CSVideoCompression_Example-dummy.m in Sources */,
+				B0E00EA81D40FFE9CDB3B04C38131B62 /* Orientation.swift in Sources */,
+				D1AA0A442E5A62FE14D7A55B8FE39952 /* PreviewView.swift in Sources */,
+				CAD52982D36DDC8D03596A677B9BB5AE /* SwiftyCam-dummy.m in Sources */,
+				4ADF7F0DD31C31B47FE516A250E1090B /* SwiftyCamButton.swift in Sources */,
+				6AFAC62ABAEDA7D704F54D657918DF7C /* SwiftyCamViewController.swift in Sources */,
+				DCE645FD54E991203534987667F382B9 /* SwiftyCamViewControllerDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6D0497DD2CB9280B3DACEA19574929B1 /* Sources */ = {
+		1F628036E8341649585D38505FDDD6C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B889A80C21FE393A004C8811 /* VideoCompressionHelper.swift in Sources */,
-				E0E13F03DDF025F5986EFB1D258AC039 /* CSVideoCompression-dummy.m in Sources */,
-				A5A8E87754F5990252BC0326EDB52766 /* CSVideoCompression.swift in Sources */,
-				B889A80F21FE39ED004C8811 /* VideoExtension.swift in Sources */,
-				B889A81221FE7886004C8811 /* UUIDFormatedHelper.swift in Sources */,
-				B889A81621FE8102004C8811 /* VideoQuality.swift in Sources */,
-				B889A81421FE7937004C8811 /* NameType.swift in Sources */,
-				B889A80A21FE391E004C8811 /* DateNameHelper.swift in Sources */,
+				E06F6DF598956BA3FB36FD81D7BD4531 /* CSVideoCompression-dummy.m in Sources */,
+				780151582230A6E00096F46E /* NameType.swift in Sources */,
+				21A3CB634B8CEEE24B6056009348460C /* CSVideoCompression.swift in Sources */,
+				780151562230A6E00096F46E /* DateNameHelper.swift in Sources */,
+				7801515A2230A6E00096F46E /* VideoCompressionHelper.swift in Sources */,
+				7801515B2230A6E00096F46E /* VideoQuality.swift in Sources */,
+				780151592230A6E00096F46E /* UUIDFormatedHelper.swift in Sources */,
+				780151572230A6E00096F46E /* VideoExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF67D0AF1536203C36FE42DE071A2897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				477D8BC93132E3C618CB9F1DFC703F0D /* Pods-CSVideoCompression_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AE92D748ED415EA419A11F312F321E02 /* PBXTargetDependency */ = {
+		89470368C09E11D961B29FBE4A677592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyCam;
+			target = 6F40F21D2E5868F8FC85A74F051B580A /* SwiftyCam */;
+			targetProxy = DBA0B35BE4C10C62B1143B87929CF10E /* PBXContainerItemProxy */;
+		};
+		FFD9FF5942AF4E62E8E7164FDB25182B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CSVideoCompression;
-			target = E12B695042852587C2A31B5E339FC3A4 /* CSVideoCompression */;
-			targetProxy = 3490592911D3B20A836D9B2B573B9C4F /* PBXContainerItemProxy */;
+			target = D92C02EE21514976FD30A5299BA8E05A /* CSVideoCompression */;
+			targetProxy = F298171A43AA38A51F760126901B178C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		25E2D8DD3EF39ABDAC20245F73A31252 /* Debug */ = {
+		3A4EA6E7B244F8EA24E3BCF5757FD465 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB041A4441AFB723F0FA7B985ADA8DCC /* CSVideoCompression.xcconfig */;
+			baseConfigurationReference = 1CBEFCB395D356933021851245F219B1 /* SwiftyCam.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -372,27 +488,62 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CSVideoCompression/CSVideoCompression-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CSVideoCompression/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyCam/SwiftyCam-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyCam/SwiftyCam-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CSVideoCompression/CSVideoCompression.modulemap";
-				PRODUCT_MODULE_NAME = CSVideoCompression;
-				PRODUCT_NAME = CSVideoCompression;
+				MODULEMAP_FILE = "Target Support Files/SwiftyCam/SwiftyCam.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyCam;
+				PRODUCT_NAME = SwiftyCam;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		385353415F986945C0DBDF49A027B89D /* Release */ = {
+		420538D5D68156CE15B999EC86F0954A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB041A4441AFB723F0FA7B985ADA8DCC /* CSVideoCompression.xcconfig */;
+			baseConfigurationReference = 3821A60998626DE2700050933E9875B2 /* Pods-CSVideoCompression_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CSVideoCompression_Example/Pods-CSVideoCompression_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CSVideoCompression_Example/Pods-CSVideoCompression_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6A08F5E8EB4A739CB7F880973E576E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7777F6751DD01A51DEFAD12D93E19E9 /* CSVideoCompression.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -404,7 +555,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/CSVideoCompression/CSVideoCompression-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CSVideoCompression/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/CSVideoCompression/CSVideoCompression-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -422,7 +573,38 @@
 			};
 			name = Release;
 		};
-		50646285DD9FD95AF390BDA3FB1948EA /* Debug */ = {
+		AACEED2FAB9BDEF60398A9CED3B5A848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7777F6751DD01A51DEFAD12D93E19E9 /* CSVideoCompression.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CSVideoCompression/CSVideoCompression-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CSVideoCompression/CSVideoCompression-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CSVideoCompression/CSVideoCompression.modulemap";
+				PRODUCT_MODULE_NAME = CSVideoCompression;
+				PRODUCT_NAME = CSVideoCompression;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -454,8 +636,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -488,7 +668,71 @@
 			};
 			name = Debug;
 		};
-		58DCB2BA7C34E84C00C38CEF18A96D11 /* Release */ = {
+		BCF8BE7D919A68C344A131BE25C7A56A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CBEFCB395D356933021851245F219B1 /* SwiftyCam.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyCam/SwiftyCam-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyCam/SwiftyCam-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyCam/SwiftyCam.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyCam;
+				PRODUCT_NAME = SwiftyCam;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0062498BD63AF56565D12188E53B828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7326900143D65035F4C4110D9A361A85 /* Pods-CSVideoCompression_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CSVideoCompression_Example/Pods-CSVideoCompression_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CSVideoCompression_Example/Pods-CSVideoCompression_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -520,8 +764,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -549,104 +791,46 @@
 			};
 			name = Release;
 		};
-		74722A49A53A554928E34BF4D7962A5E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13C6F71BD8E1EC29686EADB5A751AB54 /* Pods-CSVideoCompression_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CSVideoCompression_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CSVideoCompression_Example/Pods-CSVideoCompression_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A2AA662165D6F8DB65F789FBACF9B0D0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B59F0B6511605F715F4028F7B60F9874 /* Pods-CSVideoCompression_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CSVideoCompression_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CSVideoCompression_Example/Pods-CSVideoCompression_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				50646285DD9FD95AF390BDA3FB1948EA /* Debug */,
-				58DCB2BA7C34E84C00C38CEF18A96D11 /* Release */,
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		921C9A21B183AFDC467E7DB7E28B41E6 /* Build configuration list for PBXNativeTarget "Pods-CSVideoCompression_Example" */ = {
+		8395FD19BF250D753FA0877907476BF9 /* Build configuration list for PBXNativeTarget "Pods-CSVideoCompression_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A2AA662165D6F8DB65F789FBACF9B0D0 /* Debug */,
-				74722A49A53A554928E34BF4D7962A5E /* Release */,
+				D0062498BD63AF56565D12188E53B828 /* Debug */,
+				420538D5D68156CE15B999EC86F0954A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F7978FBDFF3D128D09E7DBB1FEBFEDF /* Build configuration list for PBXNativeTarget "CSVideoCompression" */ = {
+		D64B3F39E76D4B7006B3CBD3075FC8D3 /* Build configuration list for PBXNativeTarget "CSVideoCompression" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				25E2D8DD3EF39ABDAC20245F73A31252 /* Debug */,
-				385353415F986945C0DBDF49A027B89D /* Release */,
+				AACEED2FAB9BDEF60398A9CED3B5A848 /* Debug */,
+				A6A08F5E8EB4A739CB7F880973E576E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0CD83320E4B98296C9D817231FCA41A /* Build configuration list for PBXNativeTarget "SwiftyCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF8BE7D919A68C344A131BE25C7A56A /* Debug */,
+				3A4EA6E7B244F8EA24E3BCF5757FD465 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
